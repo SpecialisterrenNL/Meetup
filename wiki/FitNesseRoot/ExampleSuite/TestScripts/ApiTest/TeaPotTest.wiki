@@ -1,0 +1,4 @@
+|script|http test                                    |
+|show  |get from       |http://httpbin.org/status/418|
+|check |response status|418                          |
+|show  |response                                     |

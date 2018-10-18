@@ -1,0 +1,6 @@
+|scenario|print hello world|
+|note    |hello world      |
+
+|script                      |
+|open |${URL}                |
+|check|page title|FashionShop|
