@@ -1,1 +1,1 @@
-mvn compile exec:exec
+mvn compile dependency:copy-dependencies exec:exec
