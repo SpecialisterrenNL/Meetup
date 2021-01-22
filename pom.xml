@@ -161,6 +161,7 @@
                                   <argument>fitnesse-standalone.jar</argument>
                                   <argument>-p</argument>
                                   <argument>${fitnesse.port}</argument>
+                                  <argument>-lh</argument>
                               </arguments>
                           </configuration>
                       </execution>
@@ -194,16 +195,6 @@
                   <configuration>
                       <installationDirectory>${basedir}/wiki/webdrivers</installationDirectory>
                       <drivers>
-                          <driver>
-                              <name>internetexplorerdriver</name>
-                              <platform>windows</platform>
-                              <bit>32</bit>
-                          </driver>
-                          <driver>
-                              <name>edgedriver</name>
-                              <platform>windows</platform>
-                              <bit>64</bit>
-                          </driver>
                           <driver>
                               <name>chromedriver</name>
                               <platform>windows</platform>
